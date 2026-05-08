@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    background: linear-gradient(135deg, #FFC300, #FF5733);
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.icon {
+    color: black;
+    margin: 0 10px;
+    font-size: 50px;
+}
+
+.wrap {
+    position: relative;
+    width: 260px;
+    margin: auto;
+}
+
+.char {
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.6),
+    0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+    position: absolute;
+    width: 120px;     
+    right: -110px;     
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 100;
+}
+
+.logi {
+    position: absolute;
+    width: 100px;     
+    left: -100px;     
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 100;
+}
+
+.profile-section {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.profile-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+ .label::after {
+    content: " :";
+}
+
+.profile-box {
+    font-size: 18px;
+    font-weight: 600;    
+    margin: 8px 0;        
+    line-height: 1; 
+    width: 220px;
+    margin: auto;
+    padding: 30px;
+    border: 10px solid gray;
+    border-radius: 20px;
+    position: relative;
+    background: linear-gradient(
+        145deg,
+        #d9d9d9,
+        #a6a6a6,
+        #f2f2f2,
+        #8c8c8c
+    );
+}
+
+
+
+
+.profile-box::before {
+    padding: 5px;
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background: gray;
+    top: 50%;
+    left: -90px;
+}
+
+
+.profile-box::after {
+    padding: 5px;
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background: gray;
+    top: 50%;
+    right: -90px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.value {
+    text-align: right;
+}
+
+
+.footer {
+    border-radius:20px;
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+    margin-top: 40px;
+}
+
+.desc {
+    width: 300px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.6;      
+    text-align: justify;  
+    color: #111;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="name">
+    <span class="icon">↕</span>
+    EDWARD ELRIC
+    <span class="icon">↕</span>
+</h1>
+    
+
+
+<div class="wrap">
+
+<img src="https://i.ibb.co.com/Kjfh7rHK/Picsart-26-04-23-07-24-48-083.png"
+class="logi">
+
+<img src="https://i.ibb.co.com/r2xK0WNv/Picsart-26-04-23-07-24-33-890.png"
+class="logo">
+
+    <img src="https://static.wikia.nocookie.net/fma/images/b/b4/EdwardManga.png/revision/latest?cb=20250220063707"
+    class="char">
+
+</div>
+
+<div class="profile-section">
+    <h2 class="profile-title">PROFIL KARAKTER</h2>
+
+    <div class="profile-box">
+    <div class="row">
+        <span class="label">Nama</span>
+        <span class="value">Edward Elric</span>
+    </div>
+    <div class="row">
+        <span class="label">Umur</span>
+        <span class="value">15</span>
+    </div>
+    <div class="row">
+        <span class="label">Role</span>
+        <span class="value">Alchemist</span>
+    </div>
+    <div class="row">
+        <span class="label">Rank</span>
+        <span class="value">Major</span>
+    </div>
+    <div class="row">
+        <span class="label">Tgl lahir</span>
+        <span class="value">3 Oktober 1911</span>
+    </div>
+</div>
+</div>
+
+<div class="profile-section">
+    <h2 class="profile-title">DESKRIPSI KARAKTER</h2>
+
+
+<div class="desc">
+    <p>Edward Elric adalah tokoh utama dalam anime dan manga <a href="https://fma.fandom.com/wiki/Main_Page"><b>Fullmetal Alchemist</b></a> karya <a href="https://en.wikipedia.org/wiki/Hiromu_Arakawa"><b>Hiromu Arakawa.</b></a></p>
+
+    <p>Dia dikenal sebagai <b>“Fullmetal Alchemist"</b>, seorang alkemis jenius yang masih sangat muda. Edward punya sifat yang kompleks: cerdas, percaya diri, tapi juga gampang terpancing emosi.</p>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Fullmetal Project</p>
+</footer>
+
+
+
+</body>
+</html>
